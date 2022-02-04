@@ -1,0 +1,68 @@
+.board {
+  border: 1px solid black;
+  height: 40vw;
+  width: 40vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 15px auto;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.white {
+  background-image: url(https://i.pinimg.com/originals/5c/12/a4/5c12a47a866871ae2d6856329b9297d3.jpg);
+  background-size: cover;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: clamp(3vw, 5vw, 7px);
+}
+
+.gray {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAAjssOxwjcMd6mZKWchdVukliLWGv3q3RsA&usqp=CAU);
+  background-size: cover;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: clamp(3vw, 5vw, 7px);
+}
+
+body {
+  background-image: url(https://wallpapers.com/images/high/astonishing-mountain-fields-anime-scenery-v4ibwy5fzc20say7.jpg);
+  background-size: cover;
+}
+/*# sourceMappingURL=style.css.map */

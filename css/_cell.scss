@@ -1,0 +1,25 @@
+.row {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+}
+
+.white {
+    background-image: url(https://i.pinimg.com/originals/5c/12/a4/5c12a47a866871ae2d6856329b9297d3.jpg);
+    background-size: cover;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: clamp(3vw, 5vw, 7px);
+}
+
+.gray {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAAjssOxwjcMd6mZKWchdVukliLWGv3q3RsA&usqp=CAU);
+    background-size: cover;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: clamp(3vw, 5vw, 7px);
+}
