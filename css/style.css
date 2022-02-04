@@ -61,6 +61,104 @@
   font-size: clamp(3vw, 5vw, 7px);
 }
 
+.pawn-black {
+  position: relative;
+  -webkit-animation: pawn-black-1 3s forwards;
+          animation: pawn-black-1 3s forwards;
+}
+
+.pawn-white {
+  position: relative;
+  -webkit-animation: pawn-white-2 3s forwards;
+          animation: pawn-white-2 3s forwards;
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
+}
+
+.horse-black {
+  position: relative;
+  -webkit-animation-name: horse-black, horse-black-2;
+          animation-name: horse-black, horse-black-2;
+  -webkit-animation-duration: 3s, 3s;
+          animation-duration: 3s, 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: 7s, 10s;
+          animation-delay: 7s, 10s;
+}
+
+@-webkit-keyframes pawn-black-1 {
+  0% {
+    top: 0px;
+  }
+  100% {
+    top: 5vw;
+  }
+}
+
+@keyframes pawn-black-1 {
+  0% {
+    top: 0px;
+  }
+  100% {
+    top: 5vw;
+  }
+}
+
+@-webkit-keyframes pawn-white-2 {
+  0% {
+    bottom: 0px;
+  }
+  100% {
+    bottom: 10vw;
+  }
+}
+
+@keyframes pawn-white-2 {
+  0% {
+    bottom: 0px;
+  }
+  100% {
+    bottom: 10vw;
+  }
+}
+
+@-webkit-keyframes horse-black {
+  0% {
+    right: 0px;
+  }
+  100% {
+    right: 5vw;
+  }
+}
+
+@keyframes horse-black {
+  0% {
+    right: 0px;
+  }
+  100% {
+    right: 5vw;
+  }
+}
+
+@-webkit-keyframes horse-black-2 {
+  0% {
+    top: 0px;
+  }
+  100% {
+    top: 10vw;
+  }
+}
+
+@keyframes horse-black-2 {
+  0% {
+    top: 0px;
+  }
+  100% {
+    top: 10vw;
+  }
+}
+
 body {
   background-image: url(https://wallpapers.com/images/high/astonishing-mountain-fields-anime-scenery-v4ibwy5fzc20say7.jpg);
   background-size: cover;
