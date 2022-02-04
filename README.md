@@ -1,3 +1,3 @@
 # Chessboard Flex
 
-<a href="#">Live version</a>
+<a href="https://kuroeren.github.io/chessboard-flex/">Live version</a>
