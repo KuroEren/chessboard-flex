@@ -1,27 +1,41 @@
-.pawn-black {
+.first-move {
     position: relative;
-    animation: pawn-black-1 3s forwards;
+    animation: pawn-white-1 3s forwards;
 }
 
-
-.pawn-white {
+.second-move {
     position: relative;
-    animation: pawn-white-2 3s forwards;
+    animation-name: pawn-black-2;
+    animation-duration: 3s; 
     animation-delay: 4s;
-}
-
-.horse-black {
-    position: relative;
-    animation-name: horse-black, horse-black-2;
-    animation-duration: 3s, 3s;
     animation-fill-mode: forwards;
-    animation-delay: 7s, 10s;
+}
+
+.third-move {
+    position: relative;
+    animation-name: pawn-white-2;
+    animation-duration: 3s;
+    animation-delay: 8s;
+    animation-fill-mode: forwards;
+}
+
+.fourth-move {
+    position: relative;
+    animation-name: queen-move;
+    animation-duration: 4s;
+    animation-delay: 12s;
+    animation-fill-mode: forwards;
 }
 
 
-@keyframes pawn-black-1 {
+@keyframes pawn-white-1 {
+    0% {bottom: 0px;}
+    100% {bottom: 5vw;}
+}
+
+@keyframes pawn-black-2 {
     0% {top: 0px;}
-    100% {top: 5vw;}
+    100% {top: 10vw;}
 }
 
 @keyframes pawn-white-2 {
@@ -29,12 +43,12 @@
     100% {bottom: 10vw;}
 }
 
-@keyframes horse-black {
-    0% {right: 0px;}
-    100% {right: 5vw;}
+@keyframes queen-move {
+    0% {transform: translateX(0vw) translateY(0vw);}
+    100% {transform: translateX(20vw) translateY(20vw);}
 }
 
-@keyframes horse-black-2 {
-    0% {top: 0px;}
-    100% {top: 10vw;}
+@keyframes first-take {
+    0% {opacity: 1;}
+    100% {opacity: 0;}
 }
